@@ -7,8 +7,10 @@ const (
 	DEC = "dec"
 )
 
-var ErrEmptyPasswd = errors.New("password cannot be empty")
-var ErrFileNotFound = errors.New("file not found")
-var ErrFileEncrypted = errors.New("file already encrypted")
-var ErrPasswdTooShort = errors.New("password too short")
-var ErrFileDecrypted = errors.New("file already decrypted")
+var (
+	ErrEmptyPasswd    = errors.New("password cannot be empty")
+	ErrFileNotFound   = errors.New("file not found")
+	ErrFileEncrypted  = errors.New("file already encrypted")
+	ErrPasswdTooShort = errors.New("password too short")
+	ErrFileDecrypted  = errors.New("file already decrypted")
+)
