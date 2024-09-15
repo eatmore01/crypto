@@ -33,3 +33,5 @@ func main() {
     log.Print(decodeText) // hello
 }
 ```
+
+![mem](./public/mem.png)
